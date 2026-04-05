@@ -58,7 +58,6 @@ const login = async (req, res) => {
     }
 }
 
-
 const createUser = async (req, res) => {
   console.log("Starting User Creation Process - Data:", req.body);
   try {
